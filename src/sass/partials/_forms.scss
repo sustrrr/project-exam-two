@@ -1,0 +1,46 @@
+////
+.mailsent {
+    color: green;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.contactform {
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+
+    &__background {
+        background-color: getColour(blue);
+        margin-bottom: 2em;
+        padding: 2em;
+    }
+
+    &__item {
+        margin: 2em 0em;
+        label {
+            text-align: left;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.2em;
+        }
+    }
+
+    &__button {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        padding: 1em 2em;
+        border: 0.2em solid rgb(98, 98, 98);
+        border-radius: 20em;
+    }
+
+    .form-error {
+        color: rgb(212, 0, 0);
+        text-align: left;
+    }
+}

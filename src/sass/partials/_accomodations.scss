@@ -1,0 +1,69 @@
+.guesthouse {
+    
+    &__image {
+        background-image: url(/img/contact.jpg);
+        @include imageheader;
+        }
+
+    .search { 
+            margin-top: 2em;
+            justify-content: left;
+            &__input {
+                width: 50%;
+                font-style: italic;
+              }
+        }
+}
+
+.hotels {
+    
+    &__image {
+        background-image: url(/img/contact.jpg);
+        @include imageheader;
+        }
+
+    .search { 
+            margin-top: 2em;
+            justify-content: left;
+            &__input {
+                width: 50%;
+                font-style: italic;
+              }
+        }
+
+}
+
+.bb {
+    
+    &__image {
+        background-image: url(/img/contact.jpg);
+        @include imageheader;
+        }
+
+    .search { 
+            margin-top: 2em;
+            justify-content: left;
+            &__input {
+                width: 50%;
+                font-style: italic;
+              }
+        }
+}
+
+
+
+/////
+
+.bookpage {
+    padding-top: 7em;
+}
+
+.hideform {
+    display: none;
+}
+
+.datepicker {
+    display: flex;
+    text-align: left;
+    grid-gap: 5em;
+}

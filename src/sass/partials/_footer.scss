@@ -1,0 +1,77 @@
+footer {
+    padding: 0em;
+    margin: 0em;
+    width: 100%;
+    background-color: getColour(secondary);
+    .container {
+        width: 100%;
+    }
+
+.firststrip {
+    width: 100%;
+    background-color: getColour(primary);
+    padding: 1.3em;
+
+    .h2 {
+        span {
+            background-color:  getColour(primary);
+        }
+    }
+
+    &__icon {
+        color: getColour(darkgrey);
+        font-size: 3em;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        @media (max-width: $tablet-width) {
+          flex-direction: column;
+          line-height: 15vw;
+        }
+      }
+      li {
+        display: inline-block;
+        flex: 0 1 auto;
+        padding: 7vw 0vw;
+      }
+}
+
+.secondstrip {
+    text-align: center;
+    color: white;
+    line-height: 5em;
+    padding: 1.3em;
+
+    .navbrand {
+        color: white;
+    }
+}
+
+.sitemap {
+    text-align: center;
+    &__link {
+        color: white;
+        display: block;
+        padding: 1em 10em;
+
+
+        &:hover {
+            background-color: getColour(grey);
+            color: black;
+        }
+    }
+}
+
+
+}
+
+
+
+
+
